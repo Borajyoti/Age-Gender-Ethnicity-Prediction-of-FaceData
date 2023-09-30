@@ -1,0 +1,14 @@
+{
+    "model_info": {
+        "model_name": "CNN Model",
+        "model_description": "Convolutional neural network with multiple layers",
+        "model_training": "Optimizer: Adam, Learning rate: 0.001, Activation Function: relu, Number of Layers: 7,Nodes per Layer: 112, Batch size: 32, Epochs: 2",
+        "model_validation_data": "mae: 6.85, Loss: 83.84, Val_mae: 10, val_loss: 255",
+        "model_evaluation": "mae: 16.48, Loss: 409"
+    },
+    "hyperparameters": {
+        "learning_rate": 0.001,
+        "batch_size": 32,
+        "num_epochs": 2
+    }
+}

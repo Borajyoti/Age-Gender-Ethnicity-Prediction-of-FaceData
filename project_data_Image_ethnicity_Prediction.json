@@ -1,0 +1,18 @@
+{
+    "model_info": {
+        "model_name": "CNN Model",
+        "model_description": "Convolutional neural network with multiple layers",
+        "model_training": "Optimizer: Adam, Learning rate: 0.001, Activation Function: relu, Number of Layers: 7,Nodes per Layer: 112, Batch size: 32, Epochs: 2",
+        "model_evaluation": "Accuracy: 76%, Loss: 0.68, Val_accuracy: 75%, val_loss: 0.74"
+    },
+    "hyperparameters": {
+        "learning_rate": 0.001,
+        "batch_size": 32,
+        "num_epochs": 2
+    },
+    "results": {
+        "result_1": "Achieved 59% accuracy on the evaluation of test set.",
+        "result_2": "Accuracy Score is 58%.",
+        "Confusion Matrix": "[[2512    7  400  152    0], [ 762  298  113  172    1], [ 178    0  830   13    0], [ 550    1  115  504    0], [ 358    1   92   53    0]]"
+    }
+}

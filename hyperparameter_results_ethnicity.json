@@ -1,0 +1,269 @@
+{
+    "best_hyperparameters": {
+        "space": [
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "num_layers",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 1,
+                    "max_value": 10,
+                    "step": 1,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units0",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 8,
+                    "max_value": 128,
+                    "step": 8,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "activation0",
+                    "default": "relu",
+                    "conditions": [],
+                    "values": [
+                        "relu",
+                        "tanh",
+                        "sigmoid",
+                        "softmax"
+                    ],
+                    "ordered": false
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "flatten_size",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 8,
+                    "max_value": 128,
+                    "step": 8,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "optimizer",
+                    "default": "adam",
+                    "conditions": [],
+                    "values": [
+                        "adam",
+                        "sgd",
+                        "rmsprop",
+                        "adadelta"
+                    ],
+                    "ordered": false
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units1",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 8,
+                    "max_value": 128,
+                    "step": 8,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "activation1",
+                    "default": "relu",
+                    "conditions": [],
+                    "values": [
+                        "relu",
+                        "tanh",
+                        "sigmoid",
+                        "softmax"
+                    ],
+                    "ordered": false
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units2",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 8,
+                    "max_value": 128,
+                    "step": 8,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "activation2",
+                    "default": "relu",
+                    "conditions": [],
+                    "values": [
+                        "relu",
+                        "tanh",
+                        "sigmoid",
+                        "softmax"
+                    ],
+                    "ordered": false
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units3",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 8,
+                    "max_value": 128,
+                    "step": 8,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "activation3",
+                    "default": "relu",
+                    "conditions": [],
+                    "values": [
+                        "relu",
+                        "tanh",
+                        "sigmoid",
+                        "softmax"
+                    ],
+                    "ordered": false
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units4",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 8,
+                    "max_value": 128,
+                    "step": 8,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "activation4",
+                    "default": "relu",
+                    "conditions": [],
+                    "values": [
+                        "relu",
+                        "tanh",
+                        "sigmoid",
+                        "softmax"
+                    ],
+                    "ordered": false
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units5",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 8,
+                    "max_value": 128,
+                    "step": 8,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "activation5",
+                    "default": "relu",
+                    "conditions": [],
+                    "values": [
+                        "relu",
+                        "tanh",
+                        "sigmoid",
+                        "softmax"
+                    ],
+                    "ordered": false
+                }
+            },
+            {
+                "class_name": "Int",
+                "config": {
+                    "name": "units6",
+                    "default": null,
+                    "conditions": [],
+                    "min_value": 8,
+                    "max_value": 128,
+                    "step": 8,
+                    "sampling": "linear"
+                }
+            },
+            {
+                "class_name": "Choice",
+                "config": {
+                    "name": "activation6",
+                    "default": "relu",
+                    "conditions": [],
+                    "values": [
+                        "relu",
+                        "tanh",
+                        "sigmoid",
+                        "softmax"
+                    ],
+                    "ordered": false
+                }
+            }
+        ],
+        "values": {
+            "num_layers": 7,
+            "units0": 88,
+            "activation0": "relu",
+            "flatten_size": 32,
+            "optimizer": "adam",
+            "units1": 24,
+            "activation1": "tanh",
+            "units2": 72,
+            "activation2": "sigmoid",
+            "units3": 8,
+            "activation3": "relu",
+            "units4": 8,
+            "activation4": "relu",
+            "units5": 8,
+            "activation5": "relu",
+            "units6": 8,
+            "activation6": "relu"
+        }
+    },
+    "training_loss": [
+        0.6774783134460449,
+        0.6102356314659119
+    ],
+    "training_accuracy": [
+        0.7616464495658875,
+        0.7852106094360352
+    ],
+    "validation_loss": [
+        0.7437285780906677,
+        0.6981672644615173
+    ],
+    "validation_accuracy": [
+        0.7498593926429749,
+        0.7622328400611877
+    ]
+}
